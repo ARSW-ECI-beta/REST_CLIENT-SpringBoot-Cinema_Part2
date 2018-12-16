@@ -1,9 +1,13 @@
 
+
 #### Escuela Colombiana de Ingeniería
 #### Arquitecturas de software - ARSW
-#### Construción de un cliente 'grueso' con un API REST, HTML5, Javascript y CSS3. Parte II.
+## Laboratorio - Construción de un cliente 'grueso' con un API REST, HTML5, Javascript y CSS3. Parte II. - Caso Cinema 
 
+### Dependencias 
+* [Laboratorio Construción de un cliente 'grueso' con un API REST, HTML5, Javascript y CSS3. Parte I. - Caso Cinema](https://github.com/ARSW-ECI-beta/REST_CLIENT-SpringBoot-Cinema_Part1)
 
+### Descripción 
 ![](img/mock-admin.png)
 
 Se desea generar una pequeña interfaz de administrador para el sistema de gestión de compra/reserva de boletos de cine. Para efectos prácticos del ejercicio se creará un espacio en la misma pantalla destinado para esto, tal y como se ve en el mock provisto.
@@ -46,14 +50,7 @@ Se desea generar una pequeña interfaz de administrador para el sistema de gesti
 	* Haga DELETE de la función actualmente seleccionada.
 	* Haga GET de las funciones ahora disponibles.
 
-### Criterios de evaluación
 
-1. Funcional
-	* La aplicación carga el listado de funciones y dibuja correctamente los asientos.
-	* La aplicación actualiza la lista de funciones cuando se crea y almacena (a través del API) uno nuevo.
-	* La aplicación permite modificar la hora de las funciones existentes.
-2. Diseño
-	* Los callback usados al momento de cargar las funciones y llenar la tabla NO hace uso de ciclos, sino de operaciones map/reduce.
 
 	
 
